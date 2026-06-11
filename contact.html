@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">V3CARES.</a>
+            
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTACT HERO -->
+    <section class="about-hero">
+        <div style="max-width: 1400px; margin: 0 auto; padding: 0 2rem;">
+            <h1 style="font-size: clamp(3rem, 8vw, 6rem); margin-bottom: 1.5rem; opacity: 0; animation: fadeInUp 1s ease forwards;">Let's Connect</h1>
+            <p style="font-size: 1.25rem; color: var(--gray-dark); max-width: 700px; opacity: 0; animation: fadeInUp 1s ease forwards 0.2s;">
+                Have a project in mind? Want to collaborate? Or just want to say hello? I'd love to hear from you.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM SECTION -->
+    <section>
+        <div class="contact-container">
+            <form id="contactForm" class="slide-in-left" action="https://formsubmit.co/orjiuchechukwu80@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Tell me about your project..."></textarea>
+                </div>
+                <input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="New Portfolio Message">
+<input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- CONTACT INFO -->
+    <section>
+        <h2 class="section-title">Other Ways to Reach Me</h2>
+        
+        <div class="grid grid-3">
+            <div class="card">
+                <h3>Email</h3>
+                <p>orjiuchechukwu80@gmail.com</p>
+                <p style="margin-top: 1rem; color: var(--gray-dark); font-size: 0.9375rem;">I typically respond within 24 hours</p>
+            </div>
+
+            <div class="card">
+                <h3>Phone</h3>
+                <p>+234 (906) 034-4802</p>
+                <p style="margin-top: 1rem; color: var(--gray-dark); font-size: 0.9375rem;">Available Mon-Sun, 9am-6pm WAT</p>
+            </div>
+
+            <div class="card">
+                <h3>Location</h3>
+                <p>Lagos, Nigeria</p>
+                <p style="margin-top: 1rem; color: var(--gray-dark); font-size: 0.9375rem;">Open to remote opportunities</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL MEDIA -->
+    <section>
+        <h2 class="section-title">Connect on Social Media</h2>
+        <p class="section-subtitle">Follow me for updates, insights, and behind-the-scenes content.</p>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>LinkedIn</h3>
+                <p style="margin-bottom: 1.5rem;">Connect with me professionally and see my career journey</p>
+                <a href="https://www.linkedin.com/in/victory-uche-707b1b319/" class="btn btn-secondary">Visit LinkedIn</a>
+            </div>
+
+            <div class="card">
+                <h3>GitHub</h3>
+                <p style="margin-bottom: 1.5rem;">Check out my open-source projects and contributions</p>
+                <a href="https://github.com/V3cares" class="btn btn-secondary">Visit GitHub</a>
+            </div>
+
+            <div class="card">
+                <h3>Twitter</h3>
+                <p style="margin-bottom: 1.5rem;">Follow for tech insights, industry news, and quick updates</p>
+                <a href="https://x.com/VictoryUch76937" class="btn btn-secondary">Visit Twitter</a>
+            </div>
+
+            <div class="card">
+                <h3>Instagram</h3>
+                <p style="margin-bottom: 1.5rem;">See my creative work and design inspiration</p>
+                <a href="https://www.instagram.com/v3_cares/" class="btn btn-secondary">Visit Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3>What is your typical project timeline?</h3>
+                <p>Project timelines vary depending on scope and complexity. A typical website takes 4-8 weeks from kickoff to launch, while larger applications may take 3-6 months. I provide detailed timeline estimates during the proposal phase.</p>
+            </div>
+
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3>What are your rates?</h3>
+                <p>I offer both hourly and project-based pricing depending on your needs. Rates vary based on project complexity and scope. Contact me for a detailed quote tailored to your specific requirements.</p>
+            </div>
+
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3>Do you work with startups?</h3>
+                <p>Absolutely! I love working with startups and helping bring innovative ideas to life. I offer flexible engagement models and can work within startup budgets while maintaining high quality standards.</p>
+            </div>
+
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3>Can you help with ongoing maintenance?</h3>
+                <p>Yes, I offer ongoing support and maintenance packages to ensure your digital products continue to perform optimally. This includes updates, bug fixes, performance optimization, and feature enhancements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section style="text-align: center; padding: 8rem 2rem;">
+        <h2 class="section-title">Ready to Start Your Project?</h2>
+        <p class="section-subtitle">Let's turn your vision into reality. Reach out and let's discuss how we can work together.</p>
+        <a href="#contactForm" class="btn btn-primary">Send a Message</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/victory-uche-707b1b319/" aria-label="LinkedIn">LinkedIn</a></li>
+                <li><a href="https://github.com/V3cares" aria-label="GitHub">GitHub</a></li>
+                <li><a href="https://x.com/VictoryUch76937" aria-label="Twitter">Twitter</a></li>
+                <li><a href="https://www.instagram.com/v3_cares/" aria-label="Instagram">Instagram</a></li>
+            </ul>
+            <p class="copyright">&copy; 2026 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
