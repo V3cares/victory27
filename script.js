@@ -118,7 +118,6 @@ if (contactForm) {
         const message = document.getElementById('message').value.trim();
 
         if (!name || !email || !message) {
-            e.preventDefault();
             alert('Please fill in all fields');
             return;
         }
